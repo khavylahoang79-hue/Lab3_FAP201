@@ -1,0 +1,15 @@
+// ================================================================
+// FAP201 - Lab03: Edge Detection & LED Toggle
+// Target: GW5A-LV25UG324C2/I1
+// Board : Xiaomeige ACG525
+// Pin source: ACG525 pin information table
+// ================================================================
+
+IO_LOC "i_Clk" T9;
+IO_PORT "i_Clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "i_Switch" B16;
+IO_PORT "i_Switch" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+IO_LOC "o_LED" D14;
+IO_PORT "o_LED" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
